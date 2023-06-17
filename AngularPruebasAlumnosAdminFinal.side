@@ -1,0 +1,4307 @@
+{
+  "id": "e6fcc170-5e2d-4f3a-bcec-1ba8bcfd1b8a",
+  "version": "2.0",
+  "name": "AngularPruebasAlumnosAdmin",
+  "url": "http://recsports.eastus.cloudapp.azure.com:4200/",
+  "tests": [{
+    "id": "7803c13c-f00f-41ef-96ae-c6e1c6e3cad1",
+    "name": "User_login",
+    "commands": [{
+      "id": "5f4fa93e-4fcc-4929-8f69-692f608b12cd",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a23bfdf9-c21e-4fc8-8667-c7a7a8efab95",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdfd0a9f-2b97-4711-a411-7c49253e1284",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab468db2-08bb-4964-875a-d7d371c5f39a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56dcc9c1-4093-48f2-bc1c-8d47825fb435",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "9d31d301-6b45-4176-899e-5758b3fb4b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fdda5131-e1f7-489b-83fb-922dcb1211a4",
+    "name": "User_logout",
+    "commands": [{
+      "id": "38cf3bd7-b3cf-48d2-853b-3c7588022a74",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "278502ba-a1da-4768-b975-7e2fd5cc73a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3dd174-6aac-4842-8802-8dc20327771b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a53bc3a-a325-4080-86e8-4575a85c1289",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b22a7832-126c-4f98-a518-75d4c10e168c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "0c54db54-99f0-4006-8a5d-d564808ce5f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9758d92e-0ae1-49d5-8cc8-1e1082fdb2bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=close Cerrar Sesion",
+      "targets": [
+        ["linkText=close Cerrar Sesion", "linkText"],
+        ["css=.mat-mdc-list-item:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, '/')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'close Cerrar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "91b426aa-d17e-48e3-a7a7-1ea69ef0ff42",
+    "name": "Admin_login",
+    "commands": [{
+      "id": "73763499-6374-4866-ba3f-21a8ebbea8d1",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d15c1ec2-6c28-40ee-b762-c40f0b6f787c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b001b3ec-8022-42ea-9d15-403389c6a33f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4136718d-b407-4105-87ce-4ad255400ba1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec5aa45-1912-4dd6-b76e-5cb0c739770b",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "a084ec60-20ac-4578-8307-9d47c57cdc38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f1b66f90-9af0-42e7-9234-287816b3294d",
+    "name": "Admin_logout",
+    "commands": [{
+      "id": "1f1878b8-06e7-4666-8728-ab2c57a5c766",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10243b42-7e92-44c1-b170-9bab04a8da5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "066c3452-dc2d-496a-8ac8-09c030550dcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "361ae678-979b-4112-ab49-487fa2642026",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca0b5aa-9ad8-4aea-a126-87684f5ca524",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "b708642b-b4c0-4823-91aa-00a097ebbf36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7e8376a-7637-4eff-8399-a8c609bc013a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(8) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(8) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[8]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'close Cerrar Sesion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e9c40c7-d374-4a38-a3f0-eaaa6da80e00",
+    "name": "loginFail",
+    "commands": [{
+      "id": "1b67c810-d8f2-46fb-b27b-6d1c9d53c435",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "327ca914-c137-452b-bc7c-dd52cbb6b2c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f60b664-b1b8-4049-a622-2d98a27f0b9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfff6fdc-2acd-42ac-bc4e-bf9bea330842",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50a4cbee-2ab8-4fc0-aa43-5087da959994",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A01384225"
+    }, {
+      "id": "9b0730c9-16d4-4890-a322-984048f3aeba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9939d41f-ceca-4635-961a-31d3705a9e9e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "64ef5945-046b-47b5-83f2-38eb08c5e07d",
+    "name": "User_buscarDeporte",
+    "commands": [{
+      "id": "a7bc445c-8bf8-4eb0-80a0-16e08a77a198",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af398cfc-16ef-40c1-b5f0-d16632b6f627",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "081a251d-4f3e-4f27-9f92-417ff5b208d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12043d82-f27a-4d22-99fe-e7cec0774f80",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A0"
+    }, {
+      "id": "4fd89a38-8f9c-43e4-b741-02baf5e7a4cf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9950aae9-603f-41a9-8074-80ca11900073",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2ea6cb-d17a-4601-a8ff-1527e9b2afaf",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "21deae4c-5786-4b9f-a08a-b2fd509028c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17b8c08f-02d8-4dd4-a75a-555d0cee238f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-2 > .ng-tns-c15-1",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-2 > .ng-tns-c15-1", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-2']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'Escribe un Deporte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18148fb3-5e58-41fe-92dd-9bd473a5eb26",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Voleibol"
+    }, {
+      "id": "3f575684-dbd4-438e-b737-8d5f32e7ca50",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "89aaa406-73f1-4fca-8759-d355bedd0063",
+    "name": "User_VerInstalacion",
+    "commands": [{
+      "id": "b89b65b0-b063-4c37-8693-e3e375da547b",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9edd7557-84a6-47a2-8474-32aaf215d1f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "800ba5c7-c279-4afa-ace5-e29366644547",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28611d26-b532-4422-9c53-3cf7ff28b324",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb486ee6-993a-4592-b623-3438e4b86d33",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "b2a77d4c-34ee-4afb-bc92-07566e3e4213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33db2031-4a39-4827-b602-62f73b0ffd6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-3-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-3-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ddbdcb-677a-4793-a7af-69029836b9ad",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-3-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-3-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "969b6918-51a2-4ebf-8c9d-86a5bddeb274",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "be91e375-8d24-490e-8555-f30e5c1495f8",
+    "name": "User_reservarInstalacion",
+    "commands": [{
+      "id": "42d52c71-2715-4c83-a99d-5fa84d04f9b1",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8df7c3db-e241-4b4f-a23d-98bbd73858dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f79f4fa-5225-46fe-a930-e88c878810f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6c4d124-6169-4de5-a375-3e6c307f1b1f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "2fdd1fe3-3115-481e-a786-7774b77a907b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3514415-ba27-4218-8816-1940b3f5ca9f",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "e48c43da-cb97-478d-9b3a-d3fd6f90c33b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "751e72e9-f23d-4ac3-a304-54ea3865b217",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[3]/div/mat-card[2]/mat-card-actions/button/span[2]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//div[3]/div/mat-card[2]/mat-card-actions/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d85d4cd-e97c-49a0-a879-74780f1380f3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/mat-card[2]/mat-card-actions/button/span[2]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//div[3]/div/mat-card[2]/mat-card-actions/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd9e579-fcd7-4fb0-af79-a12ccc9156ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "870ea2fb-fb8c-4b00-8939-c314e3fa4241",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//span[2]",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Reservar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42c89f85-2ff9-42e5-b85f-4ff76f01c013",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[2]",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Reservar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13569ea6-d992-4080-b26e-b6b7179f6cf1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[4]/td[3]/button/span",
+      "targets": [
+        ["css=.mat-calendar-body-active > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//tr[4]/td[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4696c006-b85e-48f6-ad7b-f0e78cd6a6cb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/span",
+      "targets": [
+        ["css=.mat-mdc-select-placeholder", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-1']/span", "xpath:idRelative"],
+        ["xpath=//div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b32a6b99-38c2-4e57-8150-1a28a5bb50fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-select-arrow > .ng-tns-c31-5",
+      "targets": [
+        ["css=.mat-mdc-select-arrow > .ng-tns-c31-5", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9871f508-95d4-4d81-b151-a34e05774c7f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'03:30:00')]",
+      "targets": [
+        ["css=#mat-option-7 > .mdc-list-item__primary-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-7']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'03:30:00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a260e7-4abe-4dbc-8934-77e2c5a6a2de",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "5669fc02-ef2c-4658-b9a7-cd0587bdc368",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b11a42-05e8-4368-be67-cc0ffbc171c0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/button/span[2]",
+      "targets": [
+        ["css=.mat-primary > .mdc-button__label", "css:finder"],
+        ["xpath=//div[2]/div/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8b11f6-e70a-4724-97ed-30f526bde659",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2c8d26c2-d6ef-4f33-9729-9ffeb68593c4",
+    "name": "User_verReservas",
+    "commands": [{
+      "id": "a9eb1671-b57e-4979-a2e3-66a60a36e1db",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b05f22f-268a-4a19-a948-b497572720df",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d877a2d-4097-4410-b410-2ac7d5a56812",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b1332e-c93d-4236-88c7-94632b1b647e",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "76eac359-7459-4ad6-a43e-763bd832e3c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1de8b8d-5e47-402e-8b93-79a675622bc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f18c38-fd02-4034-80fd-b94d18e6fd40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa3a5277-99a2-4dbf-9ed7-e339f5f7152f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4b208222-978c-4776-b8f9-a9d79b7996c2",
+    "name": "User_eliminarReserva",
+    "commands": [{
+      "id": "2f8d5549-dc61-4393-b0d5-cd78aa3b899d",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "050ec7a9-76f6-4203-8f8e-a8f8acd12a44",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87060bc5-4a46-4d40-8ff4-9cf3e00dd973",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d12c7e6-fd18-4c55-b8cb-ed14bfd0da9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a9a270a-47f6-4860-9ddb-1d46fc7e55f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "591abf30-6248-4d94-aff3-f7f1b4d46d94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a54936a-8b5e-4ab1-b533-0f3a53057b6d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=book Reservas",
+      "targets": [
+        ["linkText=book Reservas", "linkText"],
+        ["css=.mat-mdc-list-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(@href, '/reservas')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "960d055d-ddbe-486f-9026-4d1889e40cc4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//span[2]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Cancelar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84fe96e2-f042-43b3-abc1-7136d0192174",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Cancelar')]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Cancelar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "160ed4dd-90ae-4baa-b642-b0a233340642",
+    "name": "User_verAvisos",
+    "commands": [{
+      "id": "3bf5b189-68fd-4c74-875f-985bf7b66a1f",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de40cd81-3fba-4a39-9b8b-e460de745b13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac9e1ab9-3341-4d04-a21f-e1f65f44f3fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-mdc-form-field-label-0",
+      "targets": [
+        ["id=mat-mdc-form-field-label-0", "id"],
+        ["css=#mat-mdc-form-field-label-0", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29da4675-4ca4-4ea5-ad72-526b3ac37bb8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b176b97b-bfa2-4fff-a08d-3460569e5b96",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "937bc322-2371-4c8a-a697-91ddd1ebaa06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0541903b-5cbb-4ea6-9e86-e827c7e3aed5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe75c04-49e7-4d7c-a891-421cdeaa954b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cca51561-2c6f-447a-a33a-fb67192f1681",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3456074a-66ff-4c0e-bced-fc16cfb43c55",
+    "name": "User_volverHome",
+    "commands": [{
+      "id": "8bde0daf-c489-4f7c-b62a-a773b7517430",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e71a16f2-3267-44bc-9cc9-567a961d973d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c67c5355-3d89-4792-bd6e-91a4034f2ab5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19c89fe8-bfe3-4f94-a6c0-97b36b4bd559",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d239f6b3-874f-45b5-9ff8-f9aeeb7f5033",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "72eec42a-d55e-4c37-9ec5-866bf9372b8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "330a2762-9e03-4ef4-8657-e1e7b5d418de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e89ec896-eee9-4c0c-a73a-db1e58d6085c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86851ba8-d59b-47ce-8828-eb95c90695dc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'book Reservas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "033eefd0-af57-4026-9aa8-081c208e4f8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(1) .mat-mdc-list-item-unscoped-content > span",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(1) .mat-mdc-list-item-unscoped-content > span", "css:finder"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2afb7bd8-c8af-4d44-b18b-51b50429588d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(1) .mat-mdc-list-item-unscoped-content > span",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(1) .mat-mdc-list-item-unscoped-content > span", "css:finder"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ade93fa-215b-42db-ba0b-461aa53d8f31",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(1) .mat-mdc-list-item-unscoped-content > span",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(1) .mat-mdc-list-item-unscoped-content > span", "css:finder"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e3aa0927-6a5f-40d2-bc7a-9ee450320b0e",
+    "name": "User_detalleAviso",
+    "commands": [{
+      "id": "3854e9af-7dd6-498d-b75a-6ad4ebbb8ae5",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "564dd768-e394-4496-a130-fdf2203be662",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab2fcfc6-e207-4581-bcad-95ad5e64ae95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c340cb-2f13-431a-93cf-545cb5a3debc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0e0f236-aae6-4404-b051-ea1a2a851354",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A00000001"
+    }, {
+      "id": "abd15cbb-74f5-4f87-90b5-cbba3482bdac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b9207c8-b318-45f8-9a59-d873a46f8eed",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ebc0f4-9087-462d-8cce-ab921a7fc6ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89edb0ff-6889-4739-b486-16323b451b8d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebcaf4d-6f75-4c64-960e-895938e89229",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'notifications Notificaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c10ee7-7817-4a94-9764-97856563887f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-card:nth-child(1) .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-card:nth-child(1) .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b8d47c8-9f3c-45d7-b6da-e311c926ddea",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Ver detalles')]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ver detalles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "00d97890-4aba-4378-af11-e54d1847f0a6",
+    "name": "Admin_verAforo",
+    "commands": [{
+      "id": "bd9b1e19-1845-4156-b650-0f0f22e272a6",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caed3b8f-96bc-4c74-b7de-f653806c6cfe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fec3e74-3dc1-4f04-b3fa-aad7940daabf",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d445b1f4-544e-4bae-b8f3-881ef649ce22",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "208a8714-6409-449a-98b6-def731844025",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "4fcf8d57-dc7b-423e-a65b-b0bac3c849c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "678818e1-2563-49a6-81d5-f2d0c179410f",
+    "name": "Admin_estadisticasAforo",
+    "commands": [{
+      "id": "19a70b4a-74fb-4b37-a061-695a97aed308",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3759afa9-7851-4546-813f-bda0053908ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1430x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fc6772b-77aa-4bf1-b4d9-d9e9e3655efa",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6070b468-e21c-4b4d-92d9-291dcda7f129",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a43f7ec9-cf68-49d8-b132-f7946fc49b0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "3fa4bbe5-8ad3-4878-99c6-2c8d6af20019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "361f8149-224b-4873-84f0-500e91fcbd6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-focus-indicator:nth-child(3)",
+      "targets": [
+        ["css=.mat-mdc-focus-indicator:nth-child(3)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2881f75a-3fb9-4714-b3b6-b8f68cc865a0",
+    "name": "Admin_filtroEstadisticasAforo",
+    "commands": [{
+      "id": "1f1fd6a7-d2c2-4021-8cb8-65ff03641298",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "839522a5-31ce-4158-9515-780f63508b98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9c6984a-ced3-4948-8529-b236fa5bb175",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "190801c1-796a-4a63-b2e9-d64e3e5b648a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44df040c-410b-412d-8c39-8b7ca00a1bc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "345653b4-9de1-4286-8b5e-fd9b77df606e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f8c4402-e08c-4765-bf16-93ce0e99da0b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-focus-indicator:nth-child(3)",
+      "targets": [
+        ["css=.mat-mdc-focus-indicator:nth-child(3)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc55f479-d818-4c57-b495-4423e304b342",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-focus-indicator:nth-child(3)",
+      "targets": [
+        ["css=.mat-mdc-focus-indicator:nth-child(3)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b8203e4-3f6c-47bc-bc81-7320928ec846",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-datepicker-toggle/button/span[4]",
+      "targets": [
+        ["css=.mdc-icon-button > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-datepicker-toggle/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "849e40d6-d426-4def-bfa5-45bf3a8a3fe8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//mat-datepicker-toggle/button/span[4]",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//mat-datepicker-toggle/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d869313-8fea-4082-96c5-8537847ede68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]",
+      "targets": [
+        ["css=.mat-calendar-previous-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a7f9592-8969-42dc-87b8-aaee70e071d7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]",
+      "targets": [
+        ["css=.mat-calendar-previous-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86e47c72-c8dd-47fb-8ba3-2de2c8cc5d73",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]",
+      "targets": [
+        ["css=.mat-calendar-previous-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35286bc7-8185-4f2f-a124-e59597aeb644",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[2]/td[2]/button/span",
+      "targets": [
+        ["css=.mat-calendar-body-active > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[2]/td[2]/button/span", "xpath:idRelative"],
+        ["xpath=//td[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e252b5-33b6-41c3-a9e8-468a61f78cc4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[4]/button/span",
+      "targets": [
+        ["css=.mat-calendar-body-preview-end > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[4]/button/span", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eb398b2-2348-4fe4-9860-f4daaf2c1fdd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//span[contains(.,'Filtrar')]",
+      "targets": [
+        ["css=.mdc-button:nth-child(2) > .mdc-button__label", "css:finder"],
+        ["xpath=//div[3]/div/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "062fe807-e97e-49d9-a908-822ab78f5148",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Filtrar')]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//div[3]/div/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5dbca3-2a6b-4777-aceb-f6778ad90767",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//span[contains(.,'Filtrar')]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//div[3]/div/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Filtrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9ed98105-3a5f-43ca-8c62-7a541500d9a4",
+    "name": "Admin_ExportarAforoEstadisticas",
+    "commands": [{
+      "id": "6e09d931-29f6-49aa-adf1-515e6d7bd438",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba89fff0-a0e1-4286-b3c8-2ffc3c050db0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3284a7b8-9005-4aab-adb9-24d3331e403f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d2c684-5ae2-4cdf-a1b2-18291e87becb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0954a2e3-c840-43a4-bc47-dfda47515d3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "51874795-2859-4820-a749-adf7edc0e1de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2608f1bd-5b74-4591-b9e9-cd8fd8abd5f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target:nth-child(5)",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target:nth-child(5)", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1543a18-0ef9-4554-95b2-33ac4926dfc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target:nth-child(5)",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target:nth-child(5)", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d7c0d6f-dfef-4cb2-bbbd-b09830b7c09d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cdk-focused > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//div[6]/button/span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9fa63c23-e90c-4e26-b32d-c6961e0cc272",
+    "name": "Admin_deshabilitarCentro",
+    "commands": [{
+      "id": "7d69b389-7275-4752-ba1e-b51a76c9e8ac",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94020f5e-35a6-4565-830f-04a37d307fe2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f4ac672-89f9-4102-be50-be1e81841284",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d094ecf0-bad2-4388-8911-28032abe429c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "773eed26-f4cd-420e-9fcd-cf5e574e1e4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0190277e-5a03-4693-a815-d8c751ca08d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-1-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8234d61a-ca23-48e3-883f-65d31cd8aae1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-1-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c139342d-788a-4ef5-a5d6-0bdd87083338",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-1-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "febe6f58-3ed1-406d-8a58-6d9631083d5d",
+    "name": "Admin_habilitarCentro",
+    "commands": [{
+      "id": "80196a1b-0eed-46f2-8504-5c2adecd07d2",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef4f63f5-49ae-4985-b6c8-9da31e7a2ddd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11adf3f7-44d6-4555-9cef-877f4f9539f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5fd4927-b191-4307-a7fb-ccd9c0b11e45",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28609287-8d8d-468b-abee-8de62402796d",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "ae8687a7-eb3d-44cb-80b9-3166a03a16a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9e886e7-e54b-46a0-8911-8c69713ebef7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-1-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33e2a06-726c-4516-a28e-e7267a1747a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-1-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d450e1d4-9488-404d-98df-1648a25f091d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-1-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-1-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30e2c6b5-86d2-4544-8d6f-fa8e35fdcc2c",
+    "name": "Admin_verEstadisticasInstalaciones",
+    "commands": [{
+      "id": "cf9ab5e2-5b55-4ae6-bd86-e151fae7ab28",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b05dfb50-f586-471d-a959-c5d4f91f3d17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1687cf1-233b-4389-88e9-e82eadf5f18f",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdb14ed3-e303-4c51-b3b6-f9ad10a8cb21",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e862d09-a75a-468a-8473-765f0e6789ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "6d390739-5b06-4200-9ecd-ad4fb8c285b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dd470c9-a446-4726-9194-adcb3d35e0d8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-3-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-3-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9639a93e-d46d-465a-afeb-fa87dfe862e7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63977886-a166-493a-b068-f3b1080862a6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-21-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-21-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc70be2-5205-4ead-bf14-c624e7834de0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-21-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-21-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38eaaef3-1a42-47ba-9492-e003ab5af433",
+    "name": "Admin_editarCentro",
+    "commands": [{
+      "id": "cccba1eb-478c-4f46-b172-2f89cd3bb2ed",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "030b8d1a-401f-435b-af73-fb70dd18ec48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "560b6339-c582-44fd-82ce-1e82504a1720",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14c3a3c2-c709-427e-b0a4-31c60cee0b72",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de88d14-49d7-40c6-a948-b231151cd573",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "cca396c1-122a-4773-9a8c-a380279d6e9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ec8120-ddf2-479a-aa11-26d63357b514",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//button[@id='mat-button-toggle-14-button']/span",
+      "targets": [
+        ["css=#mat-button-toggle-14-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-14-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[4]/mat-card-actions/mat-button-toggle-group/mat-button-toggle[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d70fd4fa-b9e1-49eb-b187-c64b556f905f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='mat-button-toggle-14-button']/span",
+      "targets": [
+        ["css=#mat-button-toggle-14-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-14-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[4]/mat-card-actions/mat-button-toggle-group/mat-button-toggle[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94352c09-06b1-4462-964c-29595392a8d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c15-2 > .mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c15-2 > .mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d64b8669-b78c-4877-ab59-171b5b828101",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Centro Diego Maltin12"
+    }]
+  }, {
+    "id": "e0021967-cc9a-447a-a40d-7de932fe8058",
+    "name": "Admin_eliminarCentro",
+    "commands": [{
+      "id": "2d99a256-3fb2-48fd-a746-3fa06324f73c",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abf286a7-db82-475a-948a-1ebb82815c53",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c02f6ae-5b31-4525-b4d2-2c3fbf2cbf0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8b94df-df6c-4687-ab1e-86be8b6eed13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af9640f-de51-4dbd-8667-3dc505ea4ac0",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "66b17ed3-4391-4782-a911-3e28b2235c88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3a9d65-1e58-4af4-9d63-97ea317fe6fd",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb0d175-79a0-4a07-85ba-79de3ac8d540",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='mat-button-toggle-15-button']/span",
+      "targets": [
+        ["css=#mat-button-toggle-15-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-15-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[4]/mat-card-actions/mat-button-toggle-group/mat-button-toggle[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cec9acdb-acd6-4397-8129-367c490104fb",
+    "name": "Admin_editarInstalacion",
+    "commands": [{
+      "id": "73555d2b-77c2-466b-828d-f5dea39ec227",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aae828bf-26ac-4c25-8534-3b9d6b37f7cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "febe6f84-46a9-48ba-9622-1c6bde696678",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d276003f-9243-4016-80f2-624cc3a55a32",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc2e501-8820-4b6d-af29-8d9721a57f11",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "9a892953-6568-4102-aaf8-6829351c99ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94ddeaa8-2250-492e-b2ff-026e81f655a3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-button-toggle-13-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-13-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-13-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[4]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "087a8043-04f2-47bb-ab09-bd59d8886c58",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-button-toggle-13-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-13-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-13-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[4]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd875966-1004-4a66-bbb6-ceff15189f90",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57b5258d-e5b1-42a2-aa1a-fe594929feb0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-button-toggle-18-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-18-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-18-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'edit Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bb19567-59ed-4e10-ae7b-0e6420618c51",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='mat-button-toggle-18-button']/span",
+      "targets": [
+        ["css=#mat-button-toggle-18-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-18-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'edit Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e58ff8cd-e687-44ea-95c8-7e77064bd4ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab525895-03bd-463e-9a84-131691a7384d",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Cancha DiegoMaltin4"
+    }, {
+      "id": "29307b55-83f1-4405-af1c-1d5fc464b0cd",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87ecdb2c-9361-4b09-93db-b79c0a4efd7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submit-btn",
+      "targets": [
+        ["css=.form-submit-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Habilitar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f5ea48cd-ed82-414a-ad8d-7def9dc7249b",
+    "name": "Admin_eliminarInstalacion",
+    "commands": [{
+      "id": "db7b411a-3f82-4c38-a507-52c4cd63ac2d",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4c9fe9b-b925-48e1-92d4-dfb19f808401",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74156299-b9ed-4b77-a4b8-08fd9e3d51d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f297b1eb-9831-44d6-b025-d76240ae4ee1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "656913cd-09eb-4099-acae-fd016005e1d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "9d44aa9c-e99b-450b-84c3-ff66c11afc25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb08e7b-f070-4130-b575-40638460c051",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-77-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-77-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d3fbdb8-0850-4760-8f90-53dbca55b9c8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-77-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-77-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78b22412-7e3b-4e57-b1ae-dd3e6c769316",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01de43e8-ec1d-4097-be04-00b887055746",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0ed50f6-fe7d-4120-8304-812948b33d65",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-button-toggle[3]/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-56-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-56-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'delete Eliminar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "78f1d37f-b8dd-4f3d-bb70-25d947e17feb",
+    "name": "Admin_deshabilitarInstalacion",
+    "commands": [{
+      "id": "b1fb9ebe-84e8-44cb-a4d8-99e579bb729f",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3fc055f-d1a6-48f4-b728-3ff08df661da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc44acee-5647-4b6e-bef9-cb4d0ab27d11",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b23d433-00fc-4ade-b83f-b70f83fe0295",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf55a6fb-8ea8-45d7-8a00-77572b1eb792",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "4a4149ec-1f16-466b-ac72-68a6b5361bc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "736e191e-4e4c-4253-b711-5fe2fae9fb3e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-button-toggle-4-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-4-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-4-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b59028a-e758-4b57-be82-9c8c6617a7a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-button-toggle-4-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-4-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-4-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea4e34a-47d7-4e2a-8012-a9473f5fe4b8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a585a6fb-c904-43e6-8fb9-0f97a141e9f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-mdc-slide-toggle-7-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-7-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-7-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-header/div[2]/mat-slide-toggle/div/button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6347db75-3361-4322-8891-04c85967e4a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#mat-mdc-slide-toggle-7-button .mdc-switch__ripple",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-7-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-7-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-header/div[2]/mat-slide-toggle/div/button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1140b1f-1bce-40e1-b87a-5831a5280f39",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-slide-toggle-7-button .mdc-switch__handle",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-7-button .mdc-switch__handle", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-7-button']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-header/div[2]/mat-slide-toggle/div/button/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8793b8e0-afe8-4fe0-9f25-cc2f57cbbcc3",
+    "name": "Admin_habilitarInstalacion",
+    "commands": [{
+      "id": "01ca9b8b-f28e-462d-8ece-ddaab8f1a3eb",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c2986ae-4f51-4a63-83de-7a4225986803",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "651da81f-edb5-4fb3-a6a3-9c9f8b2727b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-mdc-form-field-label-0",
+      "targets": [
+        ["id=mat-mdc-form-field-label-0", "id"],
+        ["css=#mat-mdc-form-field-label-0", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']", "xpath:attributes"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eaa5db4-6e77-413d-afa2-928ab2557d52",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07fadf38-1398-47b0-bb61-31d08b3fb9e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "fcd7d09c-3d6a-4947-a98f-2fe414af0cfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c89daf-e26f-4bcf-a1d3-281a105d8d3c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-107-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-107-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebf0caca-f51b-43d5-a21c-0403ffce3d9c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-107-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-107-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-button-toggle/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'remove_red_eye Ver')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d5a56f2-634e-4b35-aa64-8d7b800334c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77de492e-0d12-4706-a5c7-21651b8a9342",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card[3]/mat-card-header/div[2]/mat-slide-toggle/div/button/div[2]/div/div[2]",
+      "targets": [
+        ["css=#mat-mdc-slide-toggle-6-button .mdc-switch__ripple", "css:finder"],
+        ["xpath=//button[@id='mat-mdc-slide-toggle-6-button']/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//mat-card[3]/mat-card-header/div[2]/mat-slide-toggle/div/button/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "70a4704d-6c3f-4602-95a9-d3dfdb3228b8",
+    "name": "Admin_crearCentro",
+    "commands": [{
+      "id": "b50e38ae-6e4a-4bb9-a4e7-f17ddcf80e87",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4534565a-247a-4f16-90da-34f3e127e517",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "002e31d9-054f-4d27-bc22-4fd81add238a",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8d3deb-f64a-4c51-a6d4-ebf9a3a08481",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec5f3285-e1da-45da-a25f-6fc42a54641c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "a5f7c663-f596-46f8-b7ff-fe5c9b131b33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ccfda19-bb91-4e8d-afcb-fc12a8c40e34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(2) .mat-mdc-list-item-unscoped-content > span",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) .mat-mdc-list-item-unscoped-content > span", "css:finder"],
+        ["xpath=//a[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc4d93d-6194-472f-9b30-cf9c2e0f8644",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(2) .mat-mdc-list-item-unscoped-content > span",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(2) .mat-mdc-list-item-unscoped-content > span", "css:finder"],
+        ["xpath=//a[2]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ee19c32-ae79-4f8c-8d77-79de41270694",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-2 > .ng-tns-c15-2:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-2 > .ng-tns-c15-2:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-2']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec6a4c6-a714-4f21-bfad-fed478a3f553",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Prueba"
+    }, {
+      "id": "04f7b94a-2ea7-4701-ba34-d48042729a04",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-4 > .ng-tns-c15-3:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-4 > .ng-tns-c15-3:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-4']/mat-label", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'toggle_on Disponibilidad:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c7d6e0f-e114-4763-9f28-abe1887d1428",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-0",
+      "targets": [
+        ["id=mat-option-0", "id"],
+        ["css=#mat-option-0", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-0']", "xpath:attributes"],
+        ["xpath=//div[@id='centro-panel']/mat-option", "xpath:idRelative"],
+        ["xpath=//mat-option", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'Habilitado')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e69f474-2435-43d5-875a-5313b016d58f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-6 > .ng-tns-c15-5:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-6 > .ng-tns-c15-5:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-6']/mat-label", "xpath:idRelative"],
+        ["xpath=//form/mat-form-field/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'location_on Ubicación:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e6f61e5-29dd-49a1-8e22-1dde1a8d9d4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ubicacion",
+      "targets": [
+        ["id=ubicacion", "id"],
+        ["name=ubicacion", "name"],
+        ["css=#ubicacion", "css:finder"],
+        ["xpath=//input[@id='ubicacion']", "xpath:attributes"],
+        ["xpath=//form/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Av. Eugenio Garza Sada 2501 Sur, Tecnológico, 64849 Monterrey, N.L."
+    }, {
+      "id": "aa5f0d82-8f24-4ae9-ac1c-736fb3a5455e",
+      "comment": "",
+      "command": "click",
+      "target": "css=p > input",
+      "targets": [
+        ["css=p > input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ed231b-953c-4856-af25-e2980dcbf673",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bca17040-0571-41b0-b364-83ac8f0de087",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submit-btn",
+      "targets": [
+        ["css=.form-submit-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Habilitar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "188a9070-562b-472b-a0e2-27c41bef2070",
+    "name": "Admin_crearInstalacion",
+    "commands": [{
+      "id": "de2f0b35-950d-4d89-826b-71ecd360f349",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdb4c776-856c-491a-8c4f-f29da7899c2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "521f5809-ff39-41eb-9831-ab4f767f91f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "351cc5e8-7828-4b2b-b4a0-623faf02eb5f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f409ec1f-3c9e-4749-acff-684c5827ebad",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "391236c6-03fd-48a5-a709-64320071da85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fef8378f-5486-456e-905b-caeaaffbf2e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(3) .mat-mdc-list-item-unscoped-content > span",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(3) .mat-mdc-list-item-unscoped-content > span", "css:finder"],
+        ["xpath=//a[3]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e6f10a-cb75-4ffd-95ba-bcf743ea092d",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-mdc-form-field-label-2",
+      "targets": [
+        ["id=mat-mdc-form-field-label-2", "id"],
+        ["css=#mat-mdc-form-field-label-2", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-2']", "xpath:attributes"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'business Centro deportivo:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1942267-c584-4684-967f-7280a5788d45",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Prueba')]",
+      "targets": [
+        ["css=#mat-option-214 > .mdc-list-item__primary-text", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-214']/span", "xpath:idRelative"],
+        ["xpath=//mat-option[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Prueba')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba943309-5b38-429f-a508-75f75cfde30d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-label[contains(.,'schedule Intervalo de tiempo (Horas):')]",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-4 > .ng-tns-c15-4:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-4']/mat-label", "xpath:idRelative"],
+        ["xpath=//form/div/mat-form-field/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'schedule Intervalo de tiempo (Horas):')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8d215b-a8aa-4c9f-a3d8-7a5ac9edb597",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-1",
+      "targets": [
+        ["id=mat-option-1", "id"],
+        ["css=#mat-option-1", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-1']", "xpath:attributes"],
+        ["xpath=//div[@id='intervalo-panel']/mat-option[2]", "xpath:idRelative"],
+        ["xpath=//mat-option[2]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'1:00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3d5a16d-6a64-4a4a-8760-42330658edc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ba25074-9a98-43c6-bd05-a3a101e8e34a",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Prueba Ins"
+    }, {
+      "id": "7ef5148e-b3e7-4185-b305-27fb9af04a83",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-8 > .mat-mdc-form-field-required-marker",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-8 > .mat-mdc-form-field-required-marker", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-8']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/mat-form-field/div/div/div/div[2]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c279b0b-7d19-476b-a45e-7e58dde84b56",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-option-197 .button-cont",
+      "targets": [
+        ["css=#mat-option-197 .button-cont", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-197']/span/div", "xpath:idRelative"],
+        ["xpath=//mat-option[2]/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c7f3be-55cf-4400-87ac-59e933dd2128",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-10 > .small-label",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-10 > .small-label", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-10']/mat-label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/mat-form-field/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'access_time Inicio (entre semana)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "347e9dc0-e43f-4ce2-8125-7405fd5e1408",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-4",
+      "targets": [
+        ["id=mat-option-4", "id"],
+        ["css=#mat-option-4", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-4']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-6-panel']/mat-option", "xpath:idRelative"],
+        ["xpath=//mat-option", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'12:00 AM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81030883-32e7-4ac2-a599-9041d088c95d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-12 > .small-label",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-12 > .small-label", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-12']/mat-label", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/mat-form-field/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'access_time Fin (entre semana)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6887415-b2cf-4885-8ddc-f6b11ba3150c",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-56",
+      "targets": [
+        ["id=mat-option-56", "id"],
+        ["css=#mat-option-56", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-56']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-8-panel']/mat-option[5]", "xpath:idRelative"],
+        ["xpath=//mat-option[5]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'02:00 AM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3ed7fb8-065d-4f26-b76c-c2ba945cba9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-14 > .small-label",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-14 > .small-label", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-14']/mat-label", "xpath:idRelative"],
+        ["xpath=//div[4]/div/mat-form-field/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'access_time Inicio (fin de semana)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be7fb6fb-ec79-4802-a09c-aef60c32e419",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-104",
+      "targets": [
+        ["id=mat-option-104", "id"],
+        ["css=#mat-option-104", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-104']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-10-panel']/mat-option[5]", "xpath:idRelative"],
+        ["xpath=//mat-option[5]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'02:00 AM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a99ecc-9c8b-4928-97b5-58da5a8bf1f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-select-12 > .mat-mdc-select-trigger",
+      "targets": [
+        ["css=#mat-select-12 > .mat-mdc-select-trigger", "css:finder"],
+        ["xpath=//mat-select[@id='mat-select-12']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/mat-form-field/div/div/div[2]/mat-select/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d14bcbc-a661-42e7-a84d-9cf9f1ad4829",
+      "comment": "",
+      "command": "click",
+      "target": "id=mat-option-158",
+      "targets": [
+        ["id=mat-option-158", "id"],
+        ["css=#mat-option-158", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-158']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-12-panel']/mat-option[11]", "xpath:idRelative"],
+        ["xpath=//mat-option[11]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'05:00 AM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "247bed93-6fda-42d8-889a-68dc07bce387",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.form-submit-btn2",
+      "targets": [
+        ["css=.form-submit-btn2", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir Deporte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9362cb6-e0cb-4119-8287-91f8c3fdf119",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.form-submit-btn2",
+      "targets": [
+        ["css=.form-submit-btn2", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir Deporte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6a16766-2403-401b-9983-81a273bd8424",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f2b7722-6bf1-4f66-9e4a-b69dc1211cdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submit-btn",
+      "targets": [
+        ["css=.form-submit-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Habilitar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "53dd7109-b8e3-4252-8413-29e9c7bf4b43",
+    "name": "Admin_crearAviso",
+    "commands": [{
+      "id": "5b91eddd-3ab9-4300-9b83-4c9c57d1637f",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c09c61b-0ada-4848-bd16-a57339085b55",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dc61e6e-da21-4570-849c-ae11c42939cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c718418-3886-4b3f-b45e-426ee0202dc1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe8f50ed-0977-4f91-b64b-955ab8a84a93",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "23e36881-dc00-4c90-b6d5-97240f895420",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb941be-527e-461e-be09-eeda8db04179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ffe77de-8645-4337-b139-32274faf9162",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3cefac9-ae02-4ddd-9646-0e9db8f071d5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdabe72d-7cf4-4527-be2f-5311586d70f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label:nth-child(3)",
+      "targets": [
+        ["css=.mdc-button__label:nth-child(3)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Nuevo Aviso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f10dd29a-ba83-499b-bc03-4aa2541dcaa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=titulo",
+      "targets": [
+        ["id=titulo", "id"],
+        ["name=titulo", "name"],
+        ["css=#titulo", "css:finder"],
+        ["xpath=//input[@id='titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de8702e5-7e15-4201-81c7-613574c6bf89",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0d88318-abd4-4e3e-bcbc-3daab475a97a",
+      "comment": "",
+      "command": "type",
+      "target": "id=titulo",
+      "targets": [
+        ["id=titulo", "id"],
+        ["name=titulo", "name"],
+        ["css=#titulo", "css:finder"],
+        ["xpath=//input[@id='titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prueba aviso"
+    }, {
+      "id": "c86c7023-9d05-4d96-bf35-b95325eef580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbe5c4d8-af6b-44e2-8471-2e68779d300b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//span[4]",
+      "targets": [
+        ["css=.cdk-focused > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a3bfe62-6520-4d05-be22-e50210295bb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-calendar-body-today",
+      "targets": [
+        ["css=.mat-calendar-body-today", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[3]/td[6]/button/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[6]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'16')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0031c402-19d6-4bf8-8881-05f56bb613c8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[4]/td[5]/button/span",
+      "targets": [
+        ["css=.mat-calendar-body-preview-end > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[4]/td[5]/button/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[5]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'22')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aea1705-4af8-48cf-8f0d-b61620a41e6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c15-6 > .mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c15-6 > .mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//div[4]/mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8a7eda9-7e62-456b-8bbf-c063b8116f6b",
+      "comment": "",
+      "command": "type",
+      "target": "id=descripcion",
+      "targets": [
+        ["id=descripcion", "id"],
+        ["name=descripcion", "name"],
+        ["css=#descripcion", "css:finder"],
+        ["xpath=//input[@id='descripcion']", "xpath:attributes"],
+        ["xpath=//div[4]/mat-form-field/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "nuevo"
+    }, {
+      "id": "50408961-0365-49e4-945d-1d6a1cc9e42a",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7017383-63b9-4e95-a4c4-28315f3c73dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submit-btn",
+      "targets": [
+        ["css=.form-submit-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e035b02b-2cc6-438b-b281-ec202f00a6c5",
+    "name": "Admin_editarAviso",
+    "commands": [{
+      "id": "d04534ff-5984-4abd-8949-80fc587bcd33",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf0fdcb9-2277-4620-a191-97d6218d331d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9954be5b-d329-48b4-be29-dcbf24193e37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-required-marker",
+      "targets": [
+        ["css=.mat-mdc-form-field-required-marker", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1074b714-467d-464c-b88a-3a143f365a48",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ec4431b-d985-4d4b-9174-e79084775ecd",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "f6e01df8-81a9-49ad-8b28-52d64bf9ef31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3cb92bd-c925-4e50-8941-f685b1adccd5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c9f4e4-3867-4a78-b977-15d143b0dc50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83747fe7-e730-4c26-8937-d299b5b8c65c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9603b6d-cbb5-4973-a1a9-c601bab3259a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bf1739-3077-49bb-a8c6-4548a86d28ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//span[contains(.,'Editar')]",
+      "targets": [
+        ["css=.mat-mdc-card:nth-child(1) .mdc-button:nth-child(1) > .mdc-button__label", "css:finder"],
+        ["xpath=//mat-card-actions/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2091721d-719a-4d1c-be96-ca47aa8167b5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card[7]/mat-card-actions/button/span[2]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//mat-card[7]/mat-card-actions/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba2eb908-dd6a-4472-901d-42ffbac78c78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c15-3 > .mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.ng-tns-c15-3 > .mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "887404e2-183b-4b0d-ad0e-6b8208baad31",
+      "comment": "",
+      "command": "type",
+      "target": "id=titulo",
+      "targets": [
+        ["id=titulo", "id"],
+        ["name=titulo", "name"],
+        ["css=#titulo", "css:finder"],
+        ["xpath=//input[@id='titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prueba aviso1"
+    }, {
+      "id": "7bb8b749-1624-4cad-8fde-0dbed500ade6",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7b1c5dd-d164-4e29-92d8-4d22abdcb78f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-submit-btn",
+      "targets": [
+        ["css=.form-submit-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ee3ca746-860a-4f98-9b22-8e0cb597303f",
+    "name": "Admin_eliminarAviso",
+    "commands": [{
+      "id": "b90fa4d1-ccdf-4d0c-b181-9affc80d7d72",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd3e4c80-a855-439b-9f8f-1add903bbe1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b46d1ce2-945b-49e4-9ba5-aefd30d44034",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8fa2580-730d-49bd-ae03-4066ddef1e85",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a038465f-7396-40ac-ad6c-ee38d5e9dc57",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "2cf6418f-13b6-4cc6-86ae-b649f5fee604",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Iniciar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc329ef0-6a30-4bf5-8e46-d1a497db6ed1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd1aaeb-5f42-4246-91d5-38c1d1ee6186",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97a64272-415c-4cf9-b30a-3392884296c3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "430a91d7-6a52-442e-b4c7-a00c9ffed830",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(4) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'messageAlertas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0733d1-10b5-40a6-8c27-1d11e80a02dc",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd33d804-82f2-47ff-b03b-43f77ec0e54f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card[6]/mat-card-actions/button[2]/span[2]",
+      "targets": [
+        ["css=.cdk-focused > .mdc-button__label", "css:finder"],
+        ["xpath=//mat-card[7]/mat-card-actions/button[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a655a0f-402c-45a7-b779-06642fc9975a",
+    "name": "Admin_filtroReserva",
+    "commands": [{
+      "id": "57b007d7-bfc1-4bc4-a5c7-fe72a21a15ef",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1aa5ce92-35c1-42ca-a077-88353f7d4cdf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cb1788d-b15f-4fa2-857d-fb4fc2ff2ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e4f6fee-dc9d-4639-93e9-ad7d2049c2b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24aa621a-1641-4229-b581-89de7f102571",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "b8869d79-af87-4f1c-b64e-f0e041684bfd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[5]",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e3b60f8-586f-43d2-951d-9be957c704fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//span[contains(.,'bookReservaciones')]",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(5) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'bookReservaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c509a472-0570-4c15-9915-99cab5b67c19",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'bookReservaciones')]",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(5) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'bookReservaciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ab7b96-1a54-4f94-8e05-211ebedc2b63",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/span",
+      "targets": [
+        ["css=.mat-mdc-select-placeholder", "css:finder"],
+        ["xpath=//div[@id='mat-select-value-1']/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfae13a7-ce9a-4de0-88fe-bef1615867a6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-option[contains(.,'Finalizada')]",
+      "targets": [
+        ["id=mat-option-3", "id"],
+        ["css=#mat-option-3", "css:finder"],
+        ["xpath=//mat-option[@id='mat-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='mat-select-0-panel']/mat-option[4]", "xpath:idRelative"],
+        ["xpath=//mat-option[4]", "xpath:position"],
+        ["xpath=//mat-option[contains(.,'Finalizada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "594f6dd3-9eb3-47d6-8ffc-800d90e90d3c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Aplicar Filtros')]",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Aplicar Filtros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3a0ced5e-deb5-4104-bd84-3225c9b7f53e",
+    "name": "Admin_filtroEstadisticasInstalacion",
+    "commands": [{
+      "id": "7ea32693-f283-4c51-b2ed-72dc9ff99048",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "562601ab-8a64-400d-b4e6-d5fbcb66fe00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35305b94-0142-4280-9a16-f93bd5b5f34d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-form-field-infix",
+      "targets": [
+        ["css=.mat-mdc-form-field-infix", "css:finder"],
+        ["xpath=//mat-form-field/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7432774d-c035-409b-b676-f8bfd2b49771",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "696ddec2-9724-4f00-ae8b-51915b39fc8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "492aaa94-d744-48f1-9275-f4d3647674fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b7224b0-ecd0-4074-98a6-0ee48fb72cb7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mat-button-toggle-6-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-6-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-6-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[2]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05fafee7-9d0d-4f16-9b6e-527d8195356a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-button-toggle-6-button > .mat-button-toggle-label-content",
+      "targets": [
+        ["css=#mat-button-toggle-6-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-6-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[2]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6ab22ad-3bc6-4fbf-a1b1-96ff87708286",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ee648c0-b378-4134-8f8e-ec282b406413",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//mat-card[2]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-21-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-21-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[2]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17d50f5-710a-4902-a2b2-f1ab50b2c028",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//mat-card[2]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span",
+      "targets": [
+        ["css=#mat-button-toggle-81-button > .mat-button-toggle-label-content", "css:finder"],
+        ["xpath=//button[@id='mat-button-toggle-81-button']/span", "xpath:idRelative"],
+        ["xpath=//mat-card[2]/mat-card-actions/mat-button-toggle-group/mat-button-toggle/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e23172f-a631-4a74-8f66-fac9eb67c288",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[4]",
+      "targets": [
+        ["css=.mdc-icon-button > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eba6ea13-3289-4335-ba56-0f510b3e7107",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//button[2]/span[2]",
+      "targets": [
+        ["css=.mat-calendar-previous-button > .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db4334a-c444-4e30-8496-3afa05b8fcb8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[2]/span[2]",
+      "targets": [
+        ["css=.mat-calendar-previous-button > .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13221b1a-a370-43cd-8711-8fddaff04920",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//button[2]/span[2]",
+      "targets": [
+        ["css=.mat-calendar-previous-button > .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c990c0a-6ddf-4afe-ace9-b979502b578c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/button/span",
+      "targets": [
+        ["css=.mat-calendar-body-active > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[2]/td[2]/button/span", "xpath:idRelative"],
+        ["xpath=//td[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8847f91-a289-474d-8617-c5a3f01ad565",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[6]/td[4]/button/span",
+      "targets": [
+        ["css=.mat-calendar-body-preview-end > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[6]/td[4]/button/span", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'31')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9696050-4b60-423f-9de9-8e158da28b51",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[5]",
+      "targets": [
+        ["css=.mdc-button > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8dd70a50-a211-4e5e-a74b-53b5cb4a5c3a",
+    "name": "Admin_registros",
+    "commands": [{
+      "id": "2201e074-d25f-408a-a30e-c8d585086791",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0ac4bc4-ec52-44d4-b6f9-42f5431c98d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb82308b-a55b-4da4-9657-ba6e47367701",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f801546-603d-4304-961d-8744aca691b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2638cfc5-066f-4cd9-a6e7-e1075c08a904",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "f1f4f973-d2fe-43a5-a892-384908c6a8f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15599ad1-98f6-44fc-8129-7ac71970394b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(7) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(7) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'table_chartRegistro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d639c2da-4596-4c5d-b248-b6e62d170069",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-list-item:nth-child(7) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(7) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'table_chartRegistro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23017b79-39d9-4379-a1ed-89f609e70086",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mat-mdc-list-item:nth-child(7) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(7) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'table_chartRegistro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d3402aa-0785-4021-94fc-e26c5215620d",
+    "name": "Admin_cambiarAforo",
+    "commands": [{
+      "id": "002b9b57-85ea-4e8e-a5f1-f70bc9f16ce0",
+      "comment": "",
+      "command": "open",
+      "target": "http://recsports.eastus.cloudapp.azure.com:4200/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d07ac616-9147-4cd1-b62a-bad6ec8f68ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1470x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3480ad91-bd01-443c-919c-8c39605a6489",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-0 > .ng-tns-c15-0:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-0']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'person Nombre:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48fae018-dfcb-4295-ac4c-03460d669233",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c03a7f5-4854-4ea9-84c0-abca4c34be69",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin1"
+    }, {
+      "id": "16c44980-a259-4d4f-83ea-dac95c190db1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52209f8e-adc9-4731-8ab7-51126d7ea280",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-mdc-list-item:nth-child(6) > .mdc-list-item__content",
+      "targets": [
+        ["css=.mat-mdc-list-item:nth-child(6) > .mdc-list-item__content", "css:finder"],
+        ["xpath=//a[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'fitness_centerGimnasio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "059edf12-0dcd-44eb-a685-01aee66bab2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-2 > .ng-tns-c15-2:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-2 > .ng-tns-c15-2:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-2']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'Aforo Máximo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77c38498-b444-4960-aad7-c7b1a1b9206e",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-1",
+      "targets": [
+        ["id=mat-input-1", "id"],
+        ["css=#mat-input-1", "css:finder"],
+        ["xpath=//input[@id='mat-input-1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "360"
+    }, {
+      "id": "aa526c16-d8bf-4f80-b5f5-31b03b736d7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mat-mdc-form-field-label-4 > .ng-tns-c15-3:nth-child(1)",
+      "targets": [
+        ["css=#mat-mdc-form-field-label-4 > .ng-tns-c15-3:nth-child(1)", "css:finder"],
+        ["xpath=//label[@id='mat-mdc-form-field-label-4']/mat-label", "xpath:idRelative"],
+        ["xpath=//mat-form-field[2]/div/div/div/div[2]/label/mat-label", "xpath:position"],
+        ["xpath=//mat-label[contains(.,'Aforo Actual')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b98d7e3-6d9a-45b8-940f-09c71ea2ace9",
+      "comment": "",
+      "command": "type",
+      "target": "id=mat-input-2",
+      "targets": [
+        ["id=mat-input-2", "id"],
+        ["css=#mat-input-2", "css:finder"],
+        ["xpath=//input[@id='mat-input-2']", "xpath:attributes"],
+        ["xpath=//mat-form-field[2]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "300"
+    }, {
+      "id": "b65d6468-c8a2-42ed-8c10-949f996fa9b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__label",
+      "targets": [
+        ["css=.mdc-button__label", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Guardar Cambios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3a515b53-e643-47f0-9c49-31a288028bf4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:4200/", "http://recsports.eastus.cloudapp.azure.com:4200/"],
+  "plugins": []
+}
